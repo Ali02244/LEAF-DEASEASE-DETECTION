@@ -1,0 +1,17 @@
+# Ignore Python virtual environment
+.venv/
+venv/
+
+# Ignore dataset folders
+data_raw/
+data/train/
+data/validation/
+
+# Ignore model files (use Git LFS instead if you want)
+*.h5
+*.ckpt
+
+# Ignore OS and editor files
+*.DS_Store
+*.pyc
+__pycache__/
